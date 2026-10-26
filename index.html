@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>מתיבתא דרבנו גרשון</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #1b2a4a;
+            --gold-accent: #c5a059;
+            --text-dark: #2c3e50;
+            --text-muted: #555555;
+            --bg-gradient: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            --card-bg: #ffffff;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Assistant', sans-serif;
+            background: var(--bg-gradient);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: var(--text-dark);
+        }
+
+        .header-card {
+            background-color: var(--card-bg);
+            padding: 48px 60px;
+            border-radius: 16px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.07);
+            text-align: center;
+            max-width: 650px;
+            width: 100%;
+            border-top: 5px solid var(--gold-accent);
+            position: relative;
+        }
+
+        .logo-title {
+            font-size: 2.75rem;
+            font-weight: 800;
+            color: var(--primary-blue);
+            letter-spacing: -0.5px;
+            line-height: 1.2;
+            margin-bottom: 12px;
+        }
+
+        .divider {
+            width: 70px;
+            height: 3px;
+            background-color: var(--gold-accent);
+            margin: 16px auto;
+            border-radius: 2px;
+        }
+
+        .dedication {
+            font-size: 1.05rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            letter-spacing: 0.3px;
+            line-height: 1.5;
+        }
+
+        @media (max-width: 600px) {
+            .header-card {
+                padding: 32px 24px;
+            }
+            .logo-title {
+                font-size: 2rem;
+            }
+            .dedication {
+                font-size: 0.95rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header-card">
+        <h1 class="logo-title">מתיבתא דרבנו גרשון</h1>
+        <div class="divider"></div>
+        <p class="dedication">לעילוי נשמת מרן ראש הישיבה הגר"י אדלשטיין זצוק"ל</p>
+    </header>
+
+</body>
+</html>
